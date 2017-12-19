@@ -1,9 +1,9 @@
 .left-eyes {
-  animation: right 3s infinite alternate;
+  animation: right 3s infinite ;
 }
 
 #right-eye {
-  animation: right 3s infinite alternate;
+  animation: right 3s infinite ;
 }
 
 @keyframes right {
