@@ -1,0 +1,34 @@
+.left-eyes {
+  animation: right 3s infinite alternate;
+}
+
+#right-eye {
+  animation: right 3s infinite alternate;
+}
+
+@keyframes right {
+
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(10px);
+  }
+}
+
+#left-ear {
+  transition: all .5s linear;
+}
+
+#right-ear {
+  transition: all .5s linear;
+}
+
+.anime:hover #left-ear {
+  transform: translateY(-10px);
+}
+
+.anime:hover #right-ear {
+  transform: translateY(-10px);
+}
